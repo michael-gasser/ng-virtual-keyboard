@@ -11,7 +11,7 @@ import { KeyPressInterface } from './key-press.interface';
     <div class="container">
       <div fxLayout="column">
         <md-input-container>
-          <button class="close" color="primary" md-mini-fab
+          <button class="close-dialog" color="primary" md-mini-fab
             (click)="close()"
           >
             <md-icon>check</md-icon>
@@ -42,7 +42,7 @@ import { KeyPressInterface } from './key-press.interface';
     </div>
   `,
   styles: [`
-    .close {
+    .close-dialog {
       position: relative;
       float: right;
       top: -16px;
@@ -276,6 +276,7 @@ export class VirtualKeyboardComponent implements OnInit, OnDestroy {
           this.inputElement.nativeElement.value = currentValue.substring(0, currentValue.length - 1);
         }
 
+        this.dispatchEvents(event);
         // Set focus to keyboard input
         this.keyboardInput.nativeElement.focus();
         break;

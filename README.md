@@ -7,7 +7,7 @@
 [![devDependency Status](https://david-dm.org/protacon/ng-virtual-keyboard/dev-status.svg)](https://david-dm.org/protacon/ng-virtual-keyboard#info=devDependencies)
 
 ## What is this?
-Virtual Keyboard for Angular applications
+Virtual Keyboard for Angular 2 applications
 
 ## Install
 ### Step 1: Install @protacon/ng-virtual-keyboard
