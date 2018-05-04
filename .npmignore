@@ -1,0 +1,7 @@
+*
+
+# NPM
+!dist/**
+!package.json
+!CHANGELOG.md
+!README.md
