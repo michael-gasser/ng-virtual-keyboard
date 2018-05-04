@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var ReplaySubject_1 = require("rxjs/ReplaySubject");
-var VirtualKeyboardService = /** @class */ (function () {
+var VirtualKeyboardService = (function () {
     function VirtualKeyboardService() {
         this.shift$ = new ReplaySubject_1.ReplaySubject(1);
         this.capsLock$ = new ReplaySubject_1.ReplaySubject(1);

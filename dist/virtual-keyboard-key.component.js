@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var layouts_1 = require("./layouts");
-var VirtualKeyboardKeyComponent = /** @class */ (function () {
+var VirtualKeyboardKeyComponent = (function () {
     /**
      * Constructor of the class.
      */
